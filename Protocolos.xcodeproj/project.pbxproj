@@ -21,6 +21,9 @@
 		6A0CC3C615E66827007F5FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0CC3A415E66827007F5FAD /* Foundation.framework */; };
 		6A0CC3CE15E66827007F5FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0CC3CC15E66827007F5FAD /* InfoPlist.strings */; };
 		6A0CC3D115E66827007F5FAD /* ProtocolosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC3D015E66827007F5FAD /* ProtocolosTests.m */; };
+		6A0CC3DC15E66844007F5FAD /* Medico.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC3DB15E66844007F5FAD /* Medico.m */; };
+		6A0CC3DF15E66861007F5FAD /* Engenheiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC3DE15E66861007F5FAD /* Engenheiro.m */; };
+		6A0CC3E215E668C3007F5FAD /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC3E115E668C3007F5FAD /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		6A0CC3CD15E66827007F5FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A0CC3CF15E66827007F5FAD /* ProtocolosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolosTests.h; sourceTree = "<group>"; };
 		6A0CC3D015E66827007F5FAD /* ProtocolosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolosTests.m; sourceTree = "<group>"; };
+		6A0CC3DA15E66844007F5FAD /* Medico.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medico.h; sourceTree = "<group>"; };
+		6A0CC3DB15E66844007F5FAD /* Medico.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medico.m; sourceTree = "<group>"; };
+		6A0CC3DD15E66861007F5FAD /* Engenheiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engenheiro.h; sourceTree = "<group>"; };
+		6A0CC3DE15E66861007F5FAD /* Engenheiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engenheiro.m; sourceTree = "<group>"; };
+		6A0CC3E015E668C3007F5FAD /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		6A0CC3E115E668C3007F5FAD /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 		6A0CC39315E66827007F5FAD = {
 			isa = PBXGroup;
 			children = (
+				6A0CC3DA15E66844007F5FAD /* Medico.h */,
+				6A0CC3DB15E66844007F5FAD /* Medico.m */,
+				6A0CC3DD15E66861007F5FAD /* Engenheiro.h */,
+				6A0CC3E015E668C3007F5FAD /* Pessoa.h */,
+				6A0CC3E115E668C3007F5FAD /* Pessoa.m */,
+				6A0CC3DE15E66861007F5FAD /* Engenheiro.m */,
 				6A0CC3A815E66827007F5FAD /* Protocolos */,
 				6A0CC3C915E66827007F5FAD /* ProtocolosTests */,
 				6A0CC3A115E66827007F5FAD /* Frameworks */,
@@ -266,6 +281,9 @@
 				6A0CC3AF15E66827007F5FAD /* main.m in Sources */,
 				6A0CC3B315E66827007F5FAD /* PrincipalAppDelegate.m in Sources */,
 				6A0CC3BC15E66827007F5FAD /* PrincipalViewController.m in Sources */,
+				6A0CC3DC15E66844007F5FAD /* Medico.m in Sources */,
+				6A0CC3DF15E66861007F5FAD /* Engenheiro.m in Sources */,
+				6A0CC3E215E668C3007F5FAD /* Pessoa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

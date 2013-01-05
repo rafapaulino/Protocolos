@@ -7,12 +7,29 @@
 //
 
 #import "PrincipalAppDelegate.h"
+#import "Pessoa.h"
+#import "Medico.h"
+#import "Engenheiro.h"
 
 @implementation PrincipalAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    Medico *medico1 = [[Medico alloc] init];
+    Engenheiro *engenheiro1 = [[Engenheiro alloc] init];
+    
+    [medico1 imprimirTexto];
+    
+    //de acordo com os protocolos feitos, Engenheiro sabe fazer churrasco, mas medico nao
+    //[medico1 acenderChurrasqueira]; ->> medico nao recebeu este protocolo
+    
+    [engenheiro1 acenderChurraqueira];
+    
+    //delegate é uma maneira de comunicacao entre objetos de duas classes
+    
+    
     return YES;
 }
 							
